@@ -5,3 +5,11 @@ body {
   color: whitesmoke;
   font-family: Poppins;
 }
+
+h1 {
+  color: pink;
+  letter-spacing: 20px;
+  margin-left: 70px;
+  margin-top: 50px;
+  padding: 20px;
+}
