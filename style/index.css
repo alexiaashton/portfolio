@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-  letter-spacing: 10px;
+  letter-spacing: 15px;
   color: pink;
 }
 
@@ -28,6 +28,8 @@ h1 {
   padding: 8px 24px;
   transition: opacity 0.3s ease;
   text-decoration: none;
+  letter-spacing: 5px;
+  position: center;
 }
 
 .enter-btn:hover {
