@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,100;1,400&display=swap");
+
 body {
   background-color: black;
+  font-family: Poppins;
 }
 
 .index-container {
@@ -7,8 +10,12 @@ body {
   margin: auto;
   width: 50%;
   text-align: center;
-  justify-content: center;
-  margin-top: 100px;
+  margin-top: 200px;
+}
+
+h1 {
+  letter-spacing: 15px;
+  color: pink;
 }
 
 .enter-btn {
@@ -21,6 +28,8 @@ body {
   padding: 8px 24px;
   transition: opacity 0.3s ease;
   text-decoration: none;
+  letter-spacing: 5px;
+  position: center;
 }
 
 .enter-btn:hover {
@@ -28,9 +37,11 @@ body {
 }
 
 #profile-pic {
-  height: 200px;
-  width: 200px;
   border-radius: 50px;
+  justify-content: center;
+}
+
+#profile-pic:hover {
 }
 
 .inline {
@@ -40,7 +51,6 @@ body {
 }
 
 li {
-  float: left;
   padding: 20px;
   display: inline-block;
 }
