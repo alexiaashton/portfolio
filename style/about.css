@@ -9,7 +9,29 @@ body {
 h1 {
   color: pink;
   letter-spacing: 20px;
-  margin-left: 70px;
-  margin-top: 50px;
-  padding: 20px;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.picture {
+  padding: 40px;
+  margin-left: 20px;
+}
+.profile-picture {
+  border-radius: 50px;
+  border: 1px pink solid;
+}
+
+.info {
+  width: 500px;
+  line-break: loose;
+  letter-spacing: 2px;
+  font-weight: 200;
+  font-size: small;
 }
