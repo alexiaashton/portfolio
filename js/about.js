@@ -1,5 +1,13 @@
 "use strict";
 
-document.getElementById("1988").addEventListener("mouseover", function () {
-  document.querySelector("p").innerHTML = "hahahah";
-});
+document
+  .querySelector(".timeline-units")
+  .addEventListener("mouseover", function () {
+    document.getElementById("1988").innerHTML = "hahahah";
+  });
+
+document
+  .querySelector(".timeline-units")
+  .addEventListener("mouseout", function () {
+    document.getElementById("1988").innerHTML = "1988";
+  });
