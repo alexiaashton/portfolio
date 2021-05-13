@@ -21,8 +21,10 @@ h1 {
 
 .picture {
   padding: 40px;
-  margin-left: 20px;
+  justify-content: center;
+  margin-top: auto;
 }
+
 .profile-picture {
   border-radius: 50px;
   border: 1px pink solid;
@@ -34,4 +36,10 @@ h1 {
   letter-spacing: 2px;
   font-weight: 200;
   font-size: small;
+}
+
+.hyperlink {
+  text-decoration: none;
+  font-weight: bold;
+  color: pink;
 }
