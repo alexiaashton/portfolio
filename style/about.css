@@ -21,8 +21,18 @@ h1 {
 
 .picture {
   padding: 40px;
-  margin-left: 20px;
+  justify-content: center;
+  margin-top: auto;
+  font-weight: 200;
 }
+
+.picture h3 {
+  text-align: center;
+  color: pink;
+  letter-spacing: 3px;
+  opacity: 0.8;
+}
+
 .profile-picture {
   border-radius: 50px;
   border: 1px pink solid;
@@ -34,4 +44,42 @@ h1 {
   letter-spacing: 2px;
   font-weight: 200;
   font-size: small;
+}
+
+.hyperlink {
+  text-decoration: none;
+  font-weight: bold;
+  color: pink;
+}
+
+.timeline-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.timeline {
+  padding: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+.timeline-units {
+  width: 100px;
+  height: 20px;
+  border-bottom: 3px pink solid;
+}
+
+.timeline-units p {
+  opacity: 0.5;
+  line-height: 4px;
+}
+.timeline-units p:hover {
+  opacity: 1;
+  transition: ease-in 0.5s;
 }
