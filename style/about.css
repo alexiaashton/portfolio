@@ -23,6 +23,14 @@ h1 {
   padding: 40px;
   justify-content: center;
   margin-top: auto;
+  font-weight: 200;
+}
+
+.picture h3 {
+  text-align: center;
+  color: pink;
+  letter-spacing: 3px;
+  opacity: 0.8;
 }
 
 .profile-picture {
