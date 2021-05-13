@@ -15,12 +15,16 @@ h1 {
 
 .about-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 100px;
 }
 
+.picture {
+  padding: 40px;
+  margin-left: 20px;
+}
 .profile-picture {
-  border-radius: 10px;
+  border-radius: 50px;
   border: 1px pink solid;
 }
 
@@ -29,4 +33,5 @@ h1 {
   line-break: loose;
   letter-spacing: 2px;
   font-weight: 200;
+  font-size: small;
 }
